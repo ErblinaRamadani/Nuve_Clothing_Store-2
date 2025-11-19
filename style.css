@@ -1,0 +1,47 @@
+/* Stilizimi i header-it */
+.header {
+    padding: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+.header a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Stilizimi i hero-it */
+.hero {
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+}
